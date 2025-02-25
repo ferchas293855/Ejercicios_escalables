@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .normal {
+    color: black;
+  }
+  
+  .on-sale {
+    color: green;
+  }
+  
+  .out-of-stock-sale {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .out-of-stock-sale::after {
+    content: " (agotado)";
+    color: red;
+  }
+  
